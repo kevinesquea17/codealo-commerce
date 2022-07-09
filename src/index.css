@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;900&display=swap');
+
+:root{
+    --color-primary: #4d31b9;
+    --color-second: #fe4327;
+    --color-yellow: #ffc931;
+    --bg-card: #ebeffc;
+    --color-white: #fff;
+    --color-blue: #3357d9;
+
+    --transition: all .4s ease;
+
+    --container-width-lg: 80%;
+    --container-width-md: 86%;
+    --container-width-sm: 92%;
+}
+
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: 0;
+    outline: none;
+}
+
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    background: var(--color-white);
+    color: #000;
+    line-height: 1.7;
+    position: relative;
+}
+
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+  
+h1,h2,h3,h4,h5{
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    width: max-content;
+    display: inline-block;
+    padding: 0.4rem 1.8rem;
+    color: var(--color-white);
+    border-radius: 1.2rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+  
+.btn-primary{
+    background: var(--color-second);
+}
+
+.btn-primary:hover{
+    background: var(--color-yellow);
+}
+
+.btn-secondary{
+   background: var(--color-yellow);
+
+}
+
+  
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+section{
+    padding: 2rem 0;
+}

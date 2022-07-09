@@ -1,0 +1,21 @@
+.alerta{
+    width: 100%;
+    padding: 0.8rem 0.3rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 0.4rem;
+    font-size: 0.9rem;
+}
+
+.error{
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.success{
+    color: #0c5460;
+    background: #d1ecf1;
+    border: 1px solid #bee5eb;
+}
+

@@ -1,0 +1,32 @@
+.all-products>.product-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 4rem;
+}
+
+.categories{
+    height: 3rem;
+    background: rgba(40, 52, 62, .07);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    border-radius: 0.5rem;
+}
+
+.categories>span{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.4rem;
+    color: var(--color-second);
+    font-weight: bold;
+}
+
+.categories>span.active{
+    background: var(--color-second);
+    color: var(--color-white);
+}

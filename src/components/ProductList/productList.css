@@ -1,0 +1,51 @@
+.products{
+    margin-top: 2rem;
+    position: relative;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading__left h4{
+    color: var(--color-blue);
+}
+
+.heading__left h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.heading__right .btn{
+    background: var(--color-blue);
+    text-transform: capitalize;
+}
+
+.product-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+/* ======= MEDIA QUERIES (SMALLS DEVICES) =======  */
+
+@media screen and (max-width: 500px) {
+
+    .heading{
+        flex-direction: column;
+        align-items: center;
+        gap: 0.6rem;
+    }
+
+    .heading__left{
+        text-align: center;
+    }
+
+    .product-list{
+        grid-template-columns: 1fr;
+    }
+    
+}

@@ -1,0 +1,55 @@
+.product{
+    background: var(--bg-card);
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    box-shadow: 0 3px 10px rgba(0,0,0, 0.2);
+}
+
+.product-image{
+    width: 100%;
+}
+
+.product .btn{
+    background-color: var(--color-blue);
+    padding: 0.8rem 1.5rem;
+}
+
+.product .btn:hover{
+    background: var(--color-yellow);
+}
+
+.product>h4{
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+}
+
+.btns{
+    margin: 0.5rem 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.product .btn-secondary{
+    background: var(--color-second);
+}
+
+.product-sale{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    background: var(--color-blue);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
