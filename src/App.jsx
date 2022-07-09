@@ -7,7 +7,7 @@ import Home from './pages/Home/Home'
 import { AuthProvider } from './contexts/AuthContext'
 import Products from './pages/Products/Products'
 import ProductDetails from './pages/Product-details/ProductDetails'
-import Checkout from './pages/Checkout/checkout'
+import Checkout from './pages/Checkout/Checkout'
 import MyOrders from './pages/MyOrders/MyOrders'
 
 
