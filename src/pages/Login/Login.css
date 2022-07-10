@@ -142,6 +142,50 @@
     margin-top: 0.8rem;
 }
 
+/* ======= MEDIA QUERIES (SMALLS DEVICES) =======  */
 
+@media screen and (max-width: 500px) {
+    .login{
+        display: flex;
+        width: 92%;
+        height: 80%;
+    }
 
+    .login-right{
+        display: none;
+    }
+
+    .login-left{
+        width: 100%;
+        border-radius: 1rem;
+        position: relative;
+        padding: 2rem 1rem;
+    }
+
+    .form-login{
+        width: 92%;
+    }
+
+    .login-left h1{
+        text-align: center;
+    }
+
+    .login-right>.btn{
+        position: absolute;
+        bottom: 2rem;
+        left: 3rem;
+        color: red;
+    }
+
+    .btns{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .btns>.btn{
+        color: var(--color-second);
+        border: 1px solid var(--color-second);
+    }
+}
 
