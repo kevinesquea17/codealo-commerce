@@ -145,11 +145,12 @@
 }
 
 
+
 @media screen and (max-width: 500px) {
     .register{
         display: flex;
         width: 92%;
-        height: 92%;
+        height: 95%;
     }
 
     .register-right{
@@ -171,17 +172,22 @@
         text-align: center;
     }
 
-    .btns{
+    .register_btns{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-top: 0.5rem;
+        
     }
 
-    .btns>.btn{
+    .register_btns>.btn{
         color: var(--color-second);
         border: 1px solid var(--color-second);
     }
 }
+
+
+
 
 
 
