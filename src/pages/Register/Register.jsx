@@ -80,7 +80,7 @@ const Register = () => {
                             />
                         </div>
                         <input type="submit" value="Register" className='btn btn-primary'/>
-                        <div className="btns">
+                        <div className="register_btns">
                             <Link to='/login' className='btn'>Sign In</Link>
                             <Link to='/' className='btn'>Home</Link>
                         </div>
