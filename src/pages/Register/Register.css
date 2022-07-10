@@ -145,6 +145,46 @@
 }
 
 
+@media screen and (max-width: 500px) {
+    .register{
+        display: flex;
+        width: 92%;
+        height: 92%;
+    }
+
+    .register-right{
+        display: none;
+    }
+
+    .register-left{
+        width: 100%;
+        border-radius: 0.7rem;
+        position: relative;
+        padding: 2rem 1rem;
+    }
+
+    .form-register{
+        width: 92%;
+    }
+
+    .register-left h1{
+        text-align: center;
+    }
+
+    .btns{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .btns>.btn{
+        color: var(--color-second);
+        border: 1px solid var(--color-second);
+    }
+}
+
+
+
 
 
 
