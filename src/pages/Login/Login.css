@@ -142,6 +142,8 @@
     margin-top: 0.8rem;
 }
 
+
+
 /* ======= MEDIA QUERIES (SMALLS DEVICES) =======  */
 
 @media screen and (max-width: 500px) {
@@ -170,22 +172,21 @@
         text-align: center;
     }
 
-    .login-right>.btn{
-        position: absolute;
-        bottom: 2rem;
-        left: 3rem;
-        color: red;
-    }
-
-    .btns{
+    .login_btns{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin: 0;
     }
 
-    .btns>.btn{
+    .login_btns>.btn{
         color: var(--color-second);
         border: 1px solid var(--color-second);
+        margin-top: 0;
     }
 }
+
+
+
+
 
