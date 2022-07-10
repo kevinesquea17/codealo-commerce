@@ -80,6 +80,10 @@ const Register = () => {
                             />
                         </div>
                         <input type="submit" value="Register" className='btn btn-primary'/>
+                        <div className="btns">
+                            <Link to='/login' className='btn'>Sign In</Link>
+                            <Link to='/' className='btn'>Home</Link>
+                        </div>
                     </form>
                 </div>
                 <div className="register-right">
