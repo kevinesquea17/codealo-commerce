@@ -31,6 +31,14 @@ const Products = () => {
     return (
         <>
             <Header/>
+            {!cargando && <div className='container'>
+                <select className='select-categories' onChange={(e) => {setCategoryActive(parseInt(e.target.value)); console.log(categoryActive)}}>
+                    <option value='0' key='0'>All</option>
+                    {categories.map(category => (
+                        <option key={category.id} value={category.id}>{category.name}</option>
+                    ))}
+                </select>
+            </div>}
             {!cargando &&  <div className="container">
                 <div className="categories">
                     <span onClick={() => setCategoryActive(0)} className={categoryActive === 0 ? 'active' : ''}>All</span>
