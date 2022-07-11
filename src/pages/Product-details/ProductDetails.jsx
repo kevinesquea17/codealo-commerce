@@ -102,6 +102,16 @@ const ProductDetails = () => {
             <Header/>
             <div className="product-details container">
                 {loading && <Spinner/>}
+                <div className="name">
+                      <div className="route">
+                          <Link to='/' className='route-children'>Home</Link>
+                          <span className='route-children'>/</span>
+                          <Link to='/' className='route-children'>{productActive?.categories[0].name}</Link>
+                          <span className='route-children'>/</span>
+                          <a className='route-children'>{productActive?.title}</a>
+                      </div>
+                      <h1>{productActive?.title}</h1>
+                </div>
                 <div className="details-image">
                     <img src={`https://codealo-commerce-cms.onrender.com${productActive?.image?.url}`} alt="" />
                 </div>
